@@ -17,3 +17,16 @@ $fd = new FaviconDownloader();
 ~~~
 
 ### Téléchargement d'un favicon:
+~~~
+/*
+* $url
+* $dest
+* $params
+*/
+$fav = $fd->getIcon($url, $dest, $params);
+
+if (!empty($fav))
+{
+    // Favicon téléchargé.
+}
+~~~
