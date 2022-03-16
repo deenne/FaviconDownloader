@@ -17,13 +17,16 @@
             $debugStyle = "";
             $debugInfo = "";
             
-            if (isset($params['debugAll'])) {
-                $debugAll = $params['debugAll'];
+            if (isset($params['renewIcon'])) 
+            {
+                $debugAll = $params['renewIcon'];
             }
-            if (isset($params['forceMetaIcon'])) {
+            if (isset($params['forceMetaIcon'])) 
+            {
                 $forceMetaIcon = $params['forceMetaIcon'];
             }
-            if (isset($params['forceBasePathIcon'])) {
+            if (isset($params['forceBasePathIcon'])) 
+            {
                 $forceBasePathIcon = $params['forceBasePathIcon'];
             }
 
