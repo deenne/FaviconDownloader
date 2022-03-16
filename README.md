@@ -1,5 +1,5 @@
 # FaviconDownloader
-FaviconDownloader est une class PHP vous permettant de télécharger le favicon d'une page web.
+FaviconDownloader est une class PHP vous permettant de télécharger le favicon d'une page web à partir d'une URL.
 
 ----
 
@@ -19,11 +19,15 @@ $fd = new FaviconDownloader();
 ### Téléchargement d'un favicon:
 ~~~
 /*
-* $url
-* $dest
-* $params
+* (string) $url
+*       Correspond à l'URL dont on souhaite obtenir le favicon
+*
+* (string) $destination
+*       Chemi
+*
+* (array) [OPTIONNEL] $params
 */
-$fav = $fd->getIcon($url, $dest, $params);
+$fav = $fd->getIcon($url, $destination, $params);
 
 if (!empty($fav))
 {
